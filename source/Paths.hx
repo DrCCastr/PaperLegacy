@@ -2,7 +2,8 @@ package;
 
 import openfl.Assets;
 
-class Paths {
+class Paths
+{
     public static function exist(file:String):Bool {
         return Assets.exists(file);
     }

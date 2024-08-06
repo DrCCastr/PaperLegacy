@@ -21,6 +21,6 @@ class SubState {
     }
 
     public function remove(object:Dynamic) {
-        FlxG.state.remove(object);
+		FlxG.state.remove(object);
     }
 }

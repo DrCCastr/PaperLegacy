@@ -8,7 +8,8 @@ import flixel.util.FlxColor;
 import objects.SubState;
 import states.StartState;
 
-class MainState extends FlxState {
+class MainState extends FlxState
+{
     static var currentSubState:SubState;
 
     override public function create() {

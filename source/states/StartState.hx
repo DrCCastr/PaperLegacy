@@ -40,7 +40,7 @@ class StartState extends SubState {
         PlaceText.setFormat(null, 200, FlxColor.BLACK, "center");
         FlxTween.tween(PlaceText, {angle: 5 * PaperNameRotState}, 0.5).start();
         add(PlaceText);
-    }
+	}
 
     override public function onExit() {
         super.onExit();

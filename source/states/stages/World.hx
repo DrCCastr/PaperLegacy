@@ -5,7 +5,8 @@ import flixel.FlxObject;
 import flixel.FlxState;
 import objects.SubState;
 
-class World extends SubState {
+class World extends SubState
+{
     var Player:FlxObject;
 
     public function new(parentState:FlxState) {

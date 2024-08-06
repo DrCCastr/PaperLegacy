@@ -1,0 +1,91 @@
+<Entitie>
+    <BodyPart name="Head" graphic="player/Head" />
+    <BodyPart name="Torso"
+        graphic="player/Torso" />
+    <BodyPart name="RArm" graphic="player/Arm" />
+    <BodyPart name="LArm"
+        graphic="player/Arm" />
+    <BodyPart name="RLeg" graphic="player/Leg" />
+    <BodyPart name="LLeg"
+        graphic="player/Leg" />
+    <Animations>
+        <Animation name="idle">
+            <Frame duration="0.5">
+                <FrameEvent type="MovePart">
+                    <Prop name="Part" value="Head" />
+                    <Prop name="x" value="100" />
+                    <Prop name="y" value="50" />
+                    <Prop name="angle" value="5" />
+                </FrameEvent>
+                <FrameEvent type="MovePart">
+                    <Prop name="Part" value="Torso" />
+                    <Prop name="x" value="100" />
+                    <Prop name="y" value="100" />
+                    <Prop name="angle" value="0" />
+                </FrameEvent>
+                <FrameEvent type="MovePart">
+                    <Prop name="Part" value="RArm" />
+                    <Prop name="x" value="130" />
+                    <Prop name="y" value="100" />
+                    <Prop name="angle" value="10" />
+                </FrameEvent>
+                <FrameEvent type="MovePart">
+                    <Prop name="Part" value="LArm" />
+                    <Prop name="x" value="70" />
+                    <Prop name="y" value="100" />
+                    <Prop name="angle" value="-10" />
+                </FrameEvent>
+                <FrameEvent type="MovePart">
+                    <Prop name="Part" value="RLeg" />
+                    <Prop name="x" value="120" />
+                    <Prop name="y" value="150" />
+                    <Prop name="angle" value="0" />
+                </FrameEvent>
+                <FrameEvent type="MovePart">
+                    <Prop name="Part" value="LLeg" />
+                    <Prop name="x" value="80" />
+                    <Prop name="y" value="150" />
+                    <Prop name="angle" value="0" />
+                </FrameEvent>
+            </Frame>
+            <Frame duration="0.5">
+                <FrameEvent type="MovePart">
+                    <Prop name="Part" value="Head" />
+                    <Prop name="x" value="100" />
+                    <Prop name="y" value="50" />
+                    <Prop name="angle" value="-5" />
+                </FrameEvent>
+                <FrameEvent type="MovePart">
+                    <Prop name="Part" value="Torso" />
+                    <Prop name="x" value="100" />
+                    <Prop name="y" value="100" />
+                    <Prop name="angle" value="0" />
+                </FrameEvent>
+                <FrameEvent type="MovePart">
+                    <Prop name="Part" value="RArm" />
+                    <Prop name="x" value="130" />
+                    <Prop name="y" value="100" />
+                    <Prop name="angle" value="-10" />
+                </FrameEvent>
+                <FrameEvent type="MovePart">
+                    <Prop name="Part" value="LArm" />
+                    <Prop name="x" value="70" />
+                    <Prop name="y" value="100" />
+                    <Prop name="angle" value="10" />
+                </FrameEvent>
+                <FrameEvent type="MovePart">
+                    <Prop name="Part" value="RLeg" />
+                    <Prop name="x" value="120" />
+                    <Prop name="y" value="150" />
+                    <Prop name="angle" value="0" />
+                </FrameEvent>
+                <FrameEvent type="MovePart">
+                    <Prop name="Part" value="LLeg" />
+                    <Prop name="x" value="80" />
+                    <Prop name="y" value="150" />
+                    <Prop name="angle" value="0" />
+                </FrameEvent>
+            </Frame>
+        </Animation>
+    </Animations>
+</Entitie>
